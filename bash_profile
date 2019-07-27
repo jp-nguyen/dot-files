@@ -38,7 +38,7 @@ C2="\[\033[37;1m\]" # for host
 C3="\[\033[33;1m\]" # for current path
 WH="\[\033[m\]"     # white
 
-export PS1="${C1}\u${C2}@\h${WH}\$(parse_git_branch): ${C3}\w${WH} \n\$ "
+export PS1="${C1}\u${C2}@\h${WH}:${C3}\w${WH}\$(parse_git_branch) \n\$ "
 export PS2="> "
 
 # Set Paths
