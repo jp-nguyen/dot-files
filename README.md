@@ -16,3 +16,17 @@ background, I noticed that colored text looked better to me in bold, so
 all instances of colored text on black were bold. This carried over when I
 customized my PS1 variable.
 
+I added the branch of git on the prompt as well using a function I found
+[here](https://gist.github.com/joseluisq/1e96c54fa4e1e5647940) (thanks, Jose
+Quaintana). I also included some code to source the bash-completion script so
+that tab completion could work with git. 
+
+Finally, the aliases I decided on were mostly just adding color and verbose to
+the commands I use a lot. Otherwise, other than some ls shortcuts and an 
+alias to get rid of the .DS\_Store, I don't really have any other aliases or
+shortcuts yet. I expect this to change as I use more tools and streamline 
+more processes.
+
+## Motivations for vimrc
+
+This hasn't happened yet!
