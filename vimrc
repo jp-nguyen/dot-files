@@ -1,22 +1,67 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Maintainer: 
+"       J.P. Nguyen 
+"
+" Description: 
+"       This file is my vimrc that I use for my vim environment
+"
+" Sections:
+"    => Colors and fonts
+"    => Text, tabs, and indents
+"    => Numbers
+"    => Searching
+"    => Folding
+"    => Status Line
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""""""""""""""""""""""""""""""
+" => Git
+"""""""""""""""""""""""""""""""
+
+" Bash Completion "
 set cursorline
 hi CursorLine   cterm=bold ctermbg=lightgrey
 set colorcolumn=80
 
+
+"""""""""""""""""""""""""""""""
+" => Text, tab, and indents
+"""""""""""""""""""""""""""""""
+
+" Use spaces instead of tabs
+set expandtab
+
+" 1 tab == 4 spaces
+set shiftwidth=4
 set tabstop=4
 set softtabstop=4
-set expandtab
-set shiftwidth=4
+
+" Setting autoindent
 set autoindent
 
+"""""""""""""""""""""""""""""""
+" => Numbers
+"""""""""""""""""""""""""""""""
 set number
 set relativenumber
+
+"""""""""""""""""""""""""""""""
+" => Searching
+"""""""""""""""""""""""""""""""
 set incsearch
 set hlsearch
 
-set foldenable
-set foldlevelstart=10
-set foldmethod=indent
+"""""""""""""""""""""""""""""""
+" => Folding
+"""""""""""""""""""""""""""""""
+"set foldenable
+"set foldlevelstart=10
+"set foldmethod=indent
 
+"""""""""""""""""""""""""""""""
+" => Status Line
+"""""""""""""""""""""""""""""""
 set laststatus=2
 set statusline=
 set statusline+=%<\                       " cut at start
