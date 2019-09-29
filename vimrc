@@ -24,7 +24,6 @@ set cursorline
 hi CursorLine   cterm=bold ctermbg=lightgrey
 set colorcolumn=80
 
-
 """""""""""""""""""""""""""""""
 " => Text, tab, and indents
 """""""""""""""""""""""""""""""
@@ -62,6 +61,7 @@ set hlsearch
 """""""""""""""""""""""""""""""
 " => Status Line
 """""""""""""""""""""""""""""""
+set showcmd
 set laststatus=2
 set statusline=
 set statusline+=%<\                       " cut at start
