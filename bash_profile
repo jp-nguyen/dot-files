@@ -62,6 +62,7 @@ alias cp="cp -iv"
 alias mv="mv -iv"
 alias mkdir="mkdir -v"
 alias ls="ls -FG"
+alias grep="grep --color=always"
 
 # Do more with less
 # -------------------------------------------------------------------
