@@ -13,14 +13,6 @@
 
 # ------------------------------
 # 1. GIT
-# ------------------------------
-
-# Bash Completion
-# ------------------------------
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    source $(brew --prefix)/etc/bash_completion
-fi
-
 # Enable Prompt
 # ------------------------------
 parse_git_branch() {
